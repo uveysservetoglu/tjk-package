@@ -1,10 +1,20 @@
 {
-    "name": "mlhemedo/tjk-crawler",
-    "type": "symfony-bundle",
-    "license": "ube",
-    "minimum-stability": "dev",
-    "require": {
-    	"php": "^5.6.37 || ^7.0",
-        "another-vendor/package": "1.*"
+  "name": "mlhemedo/tjk-crawler",
+  "type": "symfony-bundle",
+  "description": "",
+  "keywords": [],
+  "homepage": "https://github.com/uveysservetoglu/tjk-package",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Üveys",
+      "email": "uveysservetoglu@gmail.com"
     }
+
+  ],
+  "autoload": {
+    "psr-0": {"mlhemedo\\Bundle\\TjkBundle": ""}
+  },
+  "minimum-stability": "dev",
+  "target-dir": "mlhemedo/Bundle/TjkBundle"
 }
