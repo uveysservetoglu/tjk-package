@@ -1,0 +1,7 @@
+{
+    "name": "mlhemedo/tjk-crawler",
+    "type": "symfony-bundle",
+    "license": "ube",
+    "minimum-stability": "dev",
+    "require": {}
+}
